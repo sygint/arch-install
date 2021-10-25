@@ -15,7 +15,7 @@ echo "::1       localhost" >> /etc/hosts
 echo "127.0.1.1 satan.localdomain satan" >> /etc/hosts
 
 
-pacman -S grub grub-btrfs networkmanager network-manager-applet dialog wpa_supplicant mtools dosfstools reflector base-devel linux-headers xdg-user-dirs xdg-utils bluez bluez-utils cups alsa-utils pulseaudio rsync reflector acpi acpi_call tlp os-prober ntfs-3g terminus-font
+pacman -S grub grub-btrfs networkmanager network-manager-applet dialog wpa_supplicant mtools dosfstools reflector base-devel linux-headers xdg-user-dirs xdg-utils bluez bluez-utils cups alsa-utils pulseaudio rsync reflector acpi acpi_call acpid tlp os-prober ntfs-3g terminus-font
 
 pacman -S nvidia nvidia-utils nvidia-settings
 
