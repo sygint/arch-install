@@ -32,12 +32,12 @@ systemctl enable reflector.timer
 systemctl enable fstrim.timer
 systemctl enable acpid
 
-# root
-echo root:password | chpasswd
+# change root password
+passwd
 
 # create user
 useradd -m syg
-echo syg:password | chpasswd
+passwd syg
 echo "syg ALL=(ALL) ALL" >> /etc/sudoers.d/syg
 
 
